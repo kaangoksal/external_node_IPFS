@@ -1,0 +1,1 @@
+This is a template for Kaan's Flask Apps, I just like the way that this is structured.
