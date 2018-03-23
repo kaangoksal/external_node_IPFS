@@ -26,7 +26,7 @@ CORS(app)
 
 app.config['server_addr'] = "http://www.example.com"
 app.config['server_port'] = 5001
-app.config['server_path'] = app.config["server_addr"] + ":" + app.config["server_port"]
+app.config['server_path'] = app.config["server_addr"] + ":" + str(app.config["server_port"])
 
 # ================================================================
 
